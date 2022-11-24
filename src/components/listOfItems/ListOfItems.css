@@ -1,0 +1,47 @@
+table {
+	border-collapse: collapse;
+	border-top: 1px solid rgba(2, 127, 212, 0.3);
+}
+
+.id {
+	width: 10%;
+	font-size: 18px;
+}
+
+.Title {
+	text-align: left;
+}
+
+.Price {
+	width: 25%;
+	text-align: left;
+}
+
+.Date {
+	width: 30%;
+	text-align: left;
+}
+
+.Items {
+	vertical-align: baseline;
+	height: 50px;
+	border-top: 1px solid rgba(2, 127, 212, 0.3);
+}
+
+tr > td {
+	padding-top: 10px;
+}
+
+td:first-child {
+	text-align: center;
+}
+
+tr:first-child {
+	height: 40px;
+	vertical-align: bottom;
+}
+
+tr > th {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}

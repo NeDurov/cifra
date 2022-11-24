@@ -1,0 +1,50 @@
+.modal {
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	opacity: 0;
+	pointer-events: none;
+	transition: 0.5s;
+}
+
+.modal.active {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.modalContent {
+	margin-top: 10px;
+	height: 440px;
+	width: 260px;
+	background-color: white;
+	border-radius: 6px;
+}
+
+.headModal h1 {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 100vw;
+	color: black;
+	font-size: 18px;
+	border-bottom: 1px solid rgba(2, 127, 212, 0.3);
+}
+
+.headModal {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.headModal label {
+	font-weight: bold;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}

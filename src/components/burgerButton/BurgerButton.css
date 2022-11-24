@@ -1,0 +1,17 @@
+.burger-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 15px;
+	width: 20px;
+	cursor: pointer;
+}
+
+.burger-menu > span {
+	width: 20px;
+	height: 2.5px;
+	display: block;
+	background-color: black;
+	transition: all 0.3s ease-in-out;
+	justify-self: end;
+}

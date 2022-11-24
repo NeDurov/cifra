@@ -1,0 +1,16 @@
+.head {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.head h1 {
+	color: #ff4739;
+	font-size: 18px;
+}
+
+.head > span {
+	font-size: 12px;
+}
